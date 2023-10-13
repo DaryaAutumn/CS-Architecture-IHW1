@@ -23,10 +23,21 @@ _Уточнение_: В данном случае я решила не брат
 
    В случае верного ввода размера массива -
 
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/73f24bb6-ebf4-43de-97e8-48ef76361ae4)
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/2bed64fc-9562-442e-87cf-79fc857d70ac)
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/01cfbd32-8262-4ae0-bd36-6626da1e947c)  
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/78ff06c2-340e-45fb-acfd-378822416368)
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/73f24bb6-ebf4-43de-97e8-48ef76361ae4)  
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/2bed64fc-9562-442e-87cf-79fc857d70ac)  
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/01cfbd32-8262-4ae0-bd36-6626da1e947c)    
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/78ff06c2-340e-45fb-acfd-378822416368)  
    
 
 ### На оценку 6-7
+1. Использованы подпрограммы с передачей параметров через стек.
+   
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/229379aa-c57d-4f53-962c-bbf0c4bc1309)  
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/3500ff2b-aa71-4123-83c5-f0256ff3f67a)
+    
+2. В подпрограммах используются локальные переменные, отображаемые на стеке.
+   
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/69b1ce07-c669-4372-88df-ffa7489e348a)
+
+3. Перед каждой из подпрограмм в комментариях описаны передаваемые и возвращаемые значения.
+
