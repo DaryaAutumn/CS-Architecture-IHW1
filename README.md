@@ -1,5 +1,5 @@
 # Индивидуальное домашнее задание 1 по курсу АВС, Судакова Дарья, БПИ227, вариант 30
-Задание выполнено на оценку 7.
+Задание выполнено на оценку 10.
 ## Условие
 Разработать программу, которая вводит одномерный массив A, состоящий из N элементов (значение N вводится при выполненпии программы),после чего формирует из элементов массива A новый массив B по следующим правилам: массив В составляется из элементов массива A, которые больше, чем элементы, стоящие перед ними.  
 _Уточнение_: В данном случае я решила не брать первый элемент массива А в массив В, так как перед ним ничего не стоит.
@@ -10,36 +10,41 @@ _Уточнение_: В данном случае я решила не брат
      
    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/50fa43ad-8bf9-4ea4-8f3a-ff214a6d493b)
 
-3. В программе используются следующие подпрограммы: check_limits, input_array, form_array, print_array.
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/c96187bf-385d-4243-b5e0-257c0129573d)
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/ffce0a3c-5763-468f-9368-5da0202cb1ae)
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/f723d3d9-ac92-4edd-8d1e-0df909ccd241)
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/2e2b2d7a-187b-4010-8e67-1efccf70d1c1)
+3. В программе используются следующие подпрограммы: check_limits, input_array, form_array.
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/656f241e-b93a-4b94-9b57-07609cb0f327)
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/ebe522d5-c72b-4f36-85d2-f32eff9f3d42)
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/d93874f8-eaa2-405e-bbdb-aa29bc451da9)
 
-4. Тестовые данные:
+5. Тестовые данные:
    В случае неверного ввода размера массива -
-   
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/e4608bbe-3608-4130-89e1-7a55f8dc9edf)
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/b9b8d389-782e-471b-8ea1-8f7704bcaef2)  
 
    В случае верного ввода размера массива -
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/9f6126cc-2d00-48e6-84eb-31143a25b47b)
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/8a7cda40-5c78-4cd6-8b8b-89f6ab3e1677)
 
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/73f24bb6-ebf4-43de-97e8-48ef76361ae4)  
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/2bed64fc-9562-442e-87cf-79fc857d70ac)  
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/01cfbd32-8262-4ae0-bd36-6626da1e947c)    
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/78ff06c2-340e-45fb-acfd-378822416368)  
-   
 
 ### На оценку 6-7
-1. _Уточнение:_ в данном случае для передачи параметров регистров a0-a7 хватало, поэтому для соответствия конвенции подпрограмм было принято решение передавать параметры через эти регистры. Данная оговорка была сделана лектором в общем чате по АВС. 
+1-2. _Уточнение:_ в данном случае для передачи параметров в подпрограммы регистров a0-a7 хватало, а в подпрограммах были использованы регистры t0-t5, большего количества переменных не потребовалось, поэтому для соответствия конвенции подпрограмм было принято решение передавать параметры через эти регистры. Данная оговорка была сделана лектором в общем чате по АВС. 
    
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/229379aa-c57d-4f53-962c-bbf0c4bc1309)  
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/3500ff2b-aa71-4123-83c5-f0256ff3f67a)
-    
-2. В подпрограммах используются локальные переменные, отображаемые на стеке.
-   
-   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/69b1ce07-c669-4372-88df-ffa7489e348a)
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/3ebf6886-6087-42ef-8344-57f03459b3e0)  
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/35c4bfee-1bda-4666-9e23-e020b25ddd1b)  
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/53959863-2900-4bbb-92e1-744f60950929)  
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/97d14292-550f-4554-8439-8f208fc2f7df)
 
-3. Перед каждой из подпрограмм в комментариях описаны передаваемые и возвращаемые значения.
+Стек используется для наприсания начала и конца подпрограмм в макросах start_subprogramm и finish_subprogramm. Данные макросы вызываются каждый раз перед началом подпрограммы и после ее исполнения.  
+
+![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/df9d9274-bcc8-4a34-afed-42220827a87d)
+
+3. Перед каждой из подпрограмм в комментариях описаны передаваемые и возвращаемые значения (видно на скриншотах выше).
+
+### На оценку 8
+
+1. Подпрограммы поддреживают подключение различных массивов при передаче необходимых параметров в указанные в комментариях регистры. Это проверяет написанная [тестовая программа](tests.asm) на ассемблере, которая создает свой собственный массив и успешно использует подпрограмму [form_array](form_array.asm).
+   
+2. Написано две тестовые программы: [tests.asm](tests.asm) на ассемблере и [main.cpp](main.cpp) на с++. Первая создает три собственных массива, применяет к каждому подпрограмму form_array и выводит результат на экран. Вторая повторяет логику основной программы на ассемблере, чтобы убедиться в правильности выводимого ответа. Тестовые данные в двух программах разные.
+   
+   ДОБАВИТЬ СКРИНЫ
 
 ## Конец отчета!
 ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/536cc56c-4c72-4cd2-b4c3-08e5a9bd97f4)
