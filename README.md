@@ -11,12 +11,12 @@ _Уточнение_: В данном случае я решила не брат
    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/50fa43ad-8bf9-4ea4-8f3a-ff214a6d493b)
 
 3. В программе используются следующие подпрограммы: check_limits, input_array, form_array.
-4. 
+   
    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/656f241e-b93a-4b94-9b57-07609cb0f327)
    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/ebe522d5-c72b-4f36-85d2-f32eff9f3d42)
    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/d93874f8-eaa2-405e-bbdb-aa29bc451da9)
 
-5. Тестовые данные:
+4. Тестовые данные:
    В случае неверного ввода размера массива -
    
    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/b9b8d389-782e-471b-8ea1-8f7704bcaef2)  
