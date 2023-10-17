@@ -102,7 +102,6 @@ array_B:  .word  10
 	li a7 10
 	ecall
 
-.include "print_array.asm"
 .include "form_array.asm"
 
 

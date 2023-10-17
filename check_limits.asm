@@ -2,7 +2,8 @@
  check_limits:
  	# checking if array size is ok (from 1 to 10)
  	# size in a0
- 	# returns 1 (true) if input is ok, 0 (false) if intput is out of range - in a0
+ 	# returns 1 (true) if input is ok, 
+ 	# 0 (false) if intput is out of range - in a0
  	# output argument - array A size in a1
  	
  	start_subprogramm

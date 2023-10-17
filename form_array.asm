@@ -6,9 +6,6 @@ form_array:
  	
  	start_subprogramm
  	
- 	# load arrays
-      	#mv t1 a1
-      	#mv t2 a2
       	# set array A size
       	mv t0 a0
  	
