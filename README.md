@@ -11,16 +11,20 @@ _Уточнение_: В данном случае я решила не брат
    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/50fa43ad-8bf9-4ea4-8f3a-ff214a6d493b)
 
 3. В программе используются следующие подпрограммы: check_limits, input_array, form_array.
+4. 
    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/656f241e-b93a-4b94-9b57-07609cb0f327)
    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/ebe522d5-c72b-4f36-85d2-f32eff9f3d42)
    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/d93874f8-eaa2-405e-bbdb-aa29bc451da9)
 
 5. Тестовые данные:
    В случае неверного ввода размера массива -
+   
    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/b9b8d389-782e-471b-8ea1-8f7704bcaef2)  
 
    В случае верного ввода размера массива -
+   
    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/9f6126cc-2d00-48e6-84eb-31143a25b47b)
+   
    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/8a7cda40-5c78-4cd6-8b8b-89f6ab3e1677)
 
 
@@ -45,6 +49,23 @@ _Уточнение_: В данном случае я решила не брат
 2. Написано две тестовые программы: [tests.asm](tests.asm) на ассемблере и [main.cpp](main.cpp) на с++. Первая создает три собственных массива, применяет к каждому подпрограмму form_array и выводит результат на экран. Вторая повторяет логику основной программы на ассемблере, чтобы убедиться в правильности выводимого ответа. Тестовые данные в двух программах разные.
    
    ДОБАВИТЬ СКРИНЫ
+
+### На оценку 9
+
+1. В программу добавлены макросы добавления в массив, печати строки, целого числа, пробела, переноса строки, печати массива. Они находятся в файле [macros.asm](macros.asm). На скриншоте приведены некоторые из них:
+
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/ab526a11-73aa-40b4-bb62-abbe1e73e094)
+
+2. Все подпрограммы обернуты в макросы начала и конца подпрограммы.
+
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/a63f1b70-9e8d-4e37-96b1-c6ec5a5983f8)
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/9a5a1cb8-321a-49ca-9417-eff70db51fc7)
+
+### На оценку 10
+
+1. Программа разбита на несколько файлов: каждая продрограмма выделена в отдельный файл и автономна в использовании. Есть два файла с тестами и файл [главной программы](IHW.asm) на ассемблере.
+
+2. Макросы вынесены в отдельную библиотеку [macros.asm](macros.asm).
 
 ## Конец отчета!
 ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW1/assets/72216853/536cc56c-4c72-4cd2-b4c3-08e5a9bd97f4)
